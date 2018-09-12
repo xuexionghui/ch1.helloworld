@@ -23,6 +23,7 @@ public class HelloworldController {
 	@RequestMapping("/sayhello.html")
 	@Function()
 	public @ResponseBody String  say(String name){
+		//改动的地方，哈哈哈哈哈哈哈哈哈哈
 		String  name1="薛雄辉";
 	    Map map = new HashMap();
 	    map.put("time", new Date());
