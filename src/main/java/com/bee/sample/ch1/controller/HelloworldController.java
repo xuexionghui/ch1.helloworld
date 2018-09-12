@@ -24,11 +24,12 @@ public class HelloworldController {
 	@Function()
 	public @ResponseBody String  say(String name){
 		//改动的地方，哈哈哈哈哈哈哈哈哈哈
+		String birthday="21994-0716";
 		String  name1="薛雄辉";
 	    Map map = new HashMap();
 	    map.put("time", new Date());
 	   
-		return "hello "+name+name1+map;
+		return "hello "+name+name1+map+birthday;
 	   
 	}
 	
