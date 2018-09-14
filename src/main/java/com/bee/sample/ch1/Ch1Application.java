@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Ch1Application {
 
 	public static void main(String[] args) {
+		/*
+		 * 修改的地方hello  
+		 */
 		SpringApplication.run(Ch1Application.class, args);
 
 	}
