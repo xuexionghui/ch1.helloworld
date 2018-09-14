@@ -1,16 +1,17 @@
 package com.bee.sample.ch1;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.Banner.Mode;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Ch1Application {
 
 	public static void main(String[] args) {
-		/*
-		 * 修改的地方hello  
-		 */
-		SpringApplication.run(Ch1Application.class, args);
-
+		
+		//SpringApplication.run(Ch1Application.class, args);
+		SpringApplication application = new SpringApplication(Ch1Application.class);
+		application.setBannerMode(Mode.OFF);
+        application.run(args);
 	}
 
 }
